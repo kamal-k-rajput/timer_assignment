@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <Timer timer={{ starttimer: 3, endtimer: 20 }} />
     </div>
   );
 }
